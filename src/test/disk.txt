@@ -1,0 +1,12 @@
+semWait userInput
+assign a a
+semSignal userInput
+semWait file
+assign b 58
+semSignal file
+semWait userOutput
+print b
+semSignal userOutput
+file 58
+a a
+input a
